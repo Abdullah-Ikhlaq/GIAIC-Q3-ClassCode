@@ -2,16 +2,14 @@
 
 This is a Python project that demonstrates how to create and run **multiple AI agents** (e.g., a Math teacher and English teacher) using the **OpenAI Agent SDK**, powered by **Gemini 2.0** via Google's API.
 
----
 
 ## Features
 
 - Integrates with **Gemini 2.0 Flash** through the OpenAI Agent SDK
 - Defines multiple conversational agents (Math & English teachers)
-- ⚡  agent execution via `Runner.run_sync()`
+- Agent execution via `Runner.run_sync()`
 - Environment-based API key loading via `python-decouple`
 
----
 
 ## Tech Stack
 
@@ -22,7 +20,6 @@ This is a Python project that demonstrates how to create and run **multiple AI a
 | `python-decouple`  | Secure API key handling via `.env` |
 | `Gemini 2.0 Flash` | Language model used in agents      |
 
----
 
 ## Requirements
 
@@ -60,6 +57,11 @@ Answer: 4
 - `english_agent` is defined but not used. You can extend the app to take dynamic input or run multiple agents in parallel.
 
 - Be sure to handle API usage according to rate limits and pricing for Gemini API.
+
+
+## License
+
+This project is licensed under the MIT License.
 
 
 ## Author
